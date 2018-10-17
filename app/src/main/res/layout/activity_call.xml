@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CallActivity"
+    android:orientation="vertical"
+    android:gravity="center">
+
+    <EditText
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:hint="Mobile Number..."
+        android:inputType="number"
+        android:id="@+id/number"
+        />
+    <Button
+        android:layout_width="300dp"
+        android:layout_height="50dp"
+        android:text="Call this number"
+        android:layout_marginTop="30dp"
+        android:id="@+id/call"
+        android:onClick="call"
+        tools:ignore="OnClick" />
+</LinearLayout>
